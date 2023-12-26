@@ -1,0 +1,131 @@
+.stop-watch-app-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/stopwatch-sm-bg.png');
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .stop-watch-app-container {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/stopwatch-lg-bg.png');
+    align-items: flex-start;
+  }
+}
+
+.stop-watch-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+@media screen and (min-width: 768px) {
+  .stop-watch-container {
+    padding-left: 100px;
+    padding-top: 40px;
+  }
+}
+
+.stop-watch-heading {
+  font-size: 25px;
+  padding-top: 30px;
+  margin: 0px;
+}
+@media screen and (min-width: 768px) {
+  .stop-watch-heading {
+    font-size: 32px;
+  }
+}
+
+.timer-icon-items {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.timer-image {
+  height: 20px;
+  padding-right: 8px;
+}
+@media screen and (min-width: 768px) {
+  .timer-image {
+    height: 30px;
+  }
+}
+
+.timer-text {
+  font-size: 15px;
+}
+@media screen and (min-width: 768px) {
+  .timer-text {
+    font-size: 22px;
+  }
+}
+
+.display-timer {
+  font-size: 25px;
+}
+@media screen and (min-width: 768px) {
+  .display-timer {
+    font-size: 35px;
+  }
+}
+.buttons-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.button {
+  border: none;
+  padding: 8px 18px;
+  border-radius: 8px;
+  font-size: 12px;
+  margin: 5px;
+  color: white;
+}
+@media screen and (min-width: 768px) {
+  .button {
+    margin: 12px;
+    font-size: 18;
+    padding: 10px 20px;
+    font-weight: 600;
+  }
+}
+
+.start-button {
+  background-color: #1db05f;
+}
+.stop-button {
+  background-color: #ef0d36;
+}
+.reset-button {
+  background-color: #eaa800;
+}
+
+@media screen and (min-width: 768px) {
+}
+
+@media screen and (min-width: 768px) {
+}
+
+@media screen and (min-width: 768px) {
+}
+
+@media screen and (min-width: 768px) {
+}
+
+@media screen and (min-width: 768px) {
+}
+
+@media screen and (min-width: 768px) {
+}
+
+@media screen and (min-width: 768px) {
+}
+
+@media screen and (min-width: 768px) {
+}
